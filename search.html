@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Car Search</title>
+<link rel="stylesheet" href="search.css">
+</head>
+<body>
+    <header>
+        <div class="tittle">
+            <div class="logo">
+                <img src="logo.jpg" alt="logo">
+            </div>
+            <div class="Name">
+                <span> Crown's Car Sale</span>
+                
+                
+            </div>
+        </div>
+        <div class="nav">
+            <a href="index.html">Home</a>
+            <a href="register.html">Register</a>
+            <a href="signin.html">Sign in</a>
+            <a href="addcar.html">Add Cars</a>
+            <a href="#">About us</a>
+
+        </div>
+    </header>
+<div class="container">
+  <h1>Car Search</h1>
+  <div class="search-container">
+    <input type="text" id="modelInput" placeholder="Enter car model...">
+    <input type="text" id="locationInput" placeholder="Enter location...">
+    <button onclick="searchCars()">Search</button>
+  </div>
+  <div id="carList" class="car-list">
+    
+  </div>
+</div>
+<footer>
+    <div class="contact">
+        <p>Contacts</p>
+        <p>Ph: 0451223993</p>
+        <p> Email: crowncarsale@gmail.com</p>
+        <p> Fax: 054 1256366</p>
+
+    </div>
+    <div class="copyrights">
+        <p> &copy; 2005 Crown's Car Sale. All Rights Reserved.</p>
+    </div>
+</footer>
+<script src="search.js"></script>
+</body>
+</html>
